@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Tests": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DataFilePath": "C:\\Users\\User\\OneDrive\\Desktop\\Full-stack Web\\API\\Invoices.csv"
+      },
+      "nativeDebugging": false
+    }
+  }
+}

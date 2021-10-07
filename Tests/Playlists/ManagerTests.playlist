@@ -1,0 +1,48 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="Tests" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="Tests" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="TestsClass" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Tests.TestsClass.TestEditInvoiceFormManagerCorrect" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TestEditInvoiceFormManagerCorrect" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Tests.TestsClass.TestEditInvoiceFormManagerIncorrect" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TestEditInvoiceFormManagerIncorrect" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Tests.TestsClass.TestGetInvoicesFormManager" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TestGetInvoicesFormManager" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="Tests.TestsClass.TestGetInvoicesFormManagerWithoutParams" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="TestGetInvoicesFormManagerWithoutParams" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
